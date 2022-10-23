@@ -308,7 +308,49 @@
 
 
 
-          
+ 
+          <tr onmouseout="ibrnet_stop()" onmouseover="ibrnet_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ibrnet_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/ibrnet_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/voxel.PNG' width="160">
+              </div>
+              <script type="text/javascript">
+                function ibrnet_start() {
+                  document.getElementById('ibrnet_image').style.opacity = "1";
+                }
+
+                function ibrnet_stop() {
+                  document.getElementById('ibrnet_image').style.opacity = "0";
+                }
+                ibrnet_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Mao_Voxel_Transformer_for_3D_Object_Detection_ICCV_2021_paper.pdf">
+                <papertitle>Voxel Transformer for 3D Object Detection</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=5S9eZbcAAAAJ&hl=en">Jiageng Mao</a>,
+              <a href="https://scholar.google.com/citations?user=NkaMZ6kAAAAJ&hl=zh-CN">Yujing Xue</a>,
+              <a href="https://dblp.org/pid/217/1826.html">Minzhe Niu</a>,
+              <strong>Haoyue Bai</strong>, 
+              <a href="https://sites.google.com/site/jshfeng">Jiashi Feng</a>,
+              <a href="https://lemondan.github.io/">Xiaodan Liang</a>,
+              <a href="https://xuhangcn.github.io/">Hang Xu</a>,
+              <a href="https://scholar.google.com/citations?user=-CJ5LkMAAAAJ&hl=zh-CN">Chunjing Xu</a>,
+              <br>
+              <em>ICCV</em>, 2021
+              <br>
+              <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Mao_Voxel_Transformer_for_3D_Object_Detection_ICCV_2021_paper.pdf">paper</a> /
+              <a href="https://github.com/PointsCoder/VOTR">code</a> 
+              <p></p>
+              <p>This paper presents Voxel Transformer (VoTr), a novel and effective voxel-based Transformer backbone for 3D object detection from point clouds.</p>
+            </td>
+          </tr>
           
     
                     
