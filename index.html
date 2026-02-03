@@ -142,6 +142,47 @@
             </td>
           </tr>   
 
+
+          
+          <tr onmouseout="ibrnet_stop()" onmouseover="ibrnet_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ibrnet_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/ibrnet_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/automic.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function ibrnet_start() {
+                  document.getElementById('ibrnet_image').style.opacity = "1";
+                }
+
+                function ibrnet_stop() {
+                  document.getElementById('ibrnet_image').style.opacity = "0";
+                }
+                ibrnet_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2512.24063">
+              <papertitle>How and Why LLMs Generalize: A Fine-Grained Analysis of LLM Reasoning from Cognitive Behaviors to Low-Level Patterns</papertitle>
+              </a>
+              <br>
+              <strong>Haoyue Bai</strong>, 
+              <a href="https://sunyiyou.github.io/">Yiyou Sun</a>,  
+              Wenjie Hu,
+              <a href="https://stephenqsstarthomas.github.io/">Shi Qiu</a>, 
+              Maggie Huan, 
+              <a href="https://peiyang-song.github.io/">Peiyang Song</a>,
+              <a href="https://nowak.ece.wisc.edu/">Robert Nowak</a>,
+              <a href="https://dawnsong.io/">Dawn Song</a>,
+              <br>
+              <em>ACL Rolling Review</em>, 2025
+              <p></p>
+              <p> LLMs show markedly different generalization behaviors under post-training. We propose to decompose reasoning into atomic core skills, enabling fine-grained analysis of how specific abilities emerge, transfer, or collapse across training stages. </p>
+            </td>
+          </tr>             
           
           
           <tr onmouseout="ibrnet_stop()" onmouseover="ibrnet_start()">
@@ -184,48 +225,6 @@
             </td>
           </tr> 
 
-          
-          <tr onmouseout="ibrnet_stop()" onmouseover="ibrnet_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='ibrnet_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/ibrnet_after.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/automic.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function ibrnet_start() {
-                  document.getElementById('ibrnet_image').style.opacity = "1";
-                }
-
-                function ibrnet_stop() {
-                  document.getElementById('ibrnet_image').style.opacity = "0";
-                }
-                ibrnet_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/pdf/2512.24063">
-              <papertitle>How and Why LLMs Generalize: A Fine-Grained Analysis of LLM Reasoning from Cognitive Behaviors to Low-Level Patterns</papertitle>
-              </a>
-              <br>
-              <strong>Haoyue Bai</strong>, 
-              <a href="https://sunyiyou.github.io/">Yiyou Sun</a>,  
-              Wenjie Hu,
-              <a href="https://stephenqsstarthomas.github.io/">Shi Qiu</a>, 
-              Maggie Huan, 
-              <a href="https://peiyang-song.github.io/">Peiyang Song</a>,
-              <a href="https://nowak.ece.wisc.edu/">Robert Nowak</a>,
-              <a href="https://dawnsong.io/">Dawn Song</a>,
-              <br>
-              <em>ACL Rolling Review</em>, 2025
-              <br>
-              <a href="https://arxiv.org/pdf/2512.24063">paper</a> /
-              <p></p>
-              <p> Large Language Models show markedly different generalization behaviors under post-training: supervised fine-tuning often narrows capabilities, while reinforcement learning tends to preserve them, though the reasons remain poorly understood. We propose to decompose reasoning into atomic core skills, enabling fine-grained analysis of how specific abilities emerge, transfer, or collapse across training stages. </p>
-            </td>
-          </tr>   
 
           
  
