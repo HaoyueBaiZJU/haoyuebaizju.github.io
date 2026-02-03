@@ -182,7 +182,53 @@
               <p></p>
               <p> LLMs show markedly different generalization behaviors under post-training. We propose to decompose reasoning into atomic core skills, enabling fine-grained analysis of how specific abilities emerge, transfer, or collapse across training stages. </p>
             </td>
-          </tr>             
+          </tr>          
+          
+          
+          <tr onmouseout="ibrnet_stop()" onmouseover="ibrnet_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ibrnet_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/ibrnet_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/ladder.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function ibrnet_start() {
+                  document.getElementById('ibrnet_image').style.opacity = "1";
+                }
+
+                function ibrnet_stop() {
+                  document.getElementById('ibrnet_image').style.opacity = "0";
+                }
+                ibrnet_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2512.24063">
+              <papertitle>Climbing the Ladder of Reasoning: What LLMs Can—and Still Can’t—Solve after SFT?</papertitle>
+              </a>
+              <br>
+              <a href="https://sunyiyou.github.io/">Yiyou Sun</a>,  
+              <a href="https://arxiv.org/pdf/2504.11741?">Georgia Zhou</a>, 
+              <strong>Haoyue Bai</strong>, 
+              <a href="https://scholar.google.com/citations?user=gjc4ZSwAAAAJ&hl=en">Hao Wang</a>, 
+              <a href="https://dachengli1.github.io/">Dacheng Li</a>,
+              <a href="https://scholar.google.com/citations?user=IqcCDXkAAAAJ&hl=en">Nouha Dziri</a>,
+              <a href="https://dawnsong.io/">Dawn Song</a>,
+              <br>
+              <a href="https://arxiv.org/pdf/2504.11741?">paper</a> /
+              <a href="https://github.com/sunblaze-ucb/reasoning_ladder">code</a> 
+              <br>
+              <em>Neural Information Processing Systems (NeurIPS)</em> MATH-AI, 2025 
+              <p></p>
+              <p> We analyze how supervised fine-tuning improves mathematical reasoning and uncover a ladder-like structure of problem difficulty from Easy to Extremely Hard. </p>
+            </td>
+          </tr> 
+
+
+
           
           
           <tr onmouseout="ibrnet_stop()" onmouseover="ibrnet_start()">
