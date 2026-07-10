@@ -122,7 +122,9 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2604.11978">
               <papertitle>The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break</papertitle>
+              </a>
               <br>
               <a href="https://xwang2775.github.io/">Jessica Wang</a>*,
               <strong>Haoyue Bai † *</strong> ,
@@ -170,7 +172,9 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
+               <a href="https://arxiv.org/pdf/2607.00447">
               <papertitle>Understanding Why Language Models Hallucinate: Testing Reasoning Against Priors</papertitle>
+               </a>
               <br>
               <a href="https://neohughus.github.io/yangfan/">Yangfan Hu</a>*,
               <a href="https://txxxxh.github.io/">Xuhan Tong</a>*,
@@ -194,7 +198,53 @@
 
 
 
+          
+          <tr onmouseout="ibrnet_stop()" onmouseover="ibrnet_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ibrnet_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/ibrnet_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/dlms.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function ibrnet_start() {
+                  document.getElementById('ibrnet_image').style.opacity = "1";
+                }
 
+                function ibrnet_stop() {
+                  document.getElementById('ibrnet_image').style.opacity = "0";
+                }
+                ibrnet_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2604.01622">
+              <papertitle>Expert-Choice Routing Enables Adaptive Computation in Diffusion Language Models</papertitle>
+              </a>
+              <br>
+              <a href="https://zhangshuibai.github.io/#">Shuibai Zhang</a>*,
+              <a href="https://sophon.at/people/caspian-zhuang">Caspian Zhuang</a>*,
+              <a href="https://chihancui.com/">Chihan Cui</a>,
+              <a href="https://zhihanyang.com/">Zhihan Yang</a>,
+              <a href="https://pengzhangzhi.github.io/home/">Fred Zhangzhi Peng</a>,
+              <a href="https://yanxinzhang.com/">Yanxin Zhang</a>,
+              <strong>Haoyue Bai</strong> ,
+              <a href="https://sg.linkedin.com/in/zack-jia-51480b49">Zack Jia</a>, 
+              <a href="https://yangzhou1997.github.io/">Yang Zhou</a>, 
+              <a href="https://ghchen.me/">Guanhua Chen</a>, 
+              <a href="https://pages.cs.wisc.edu/~mgliu/">Ming Liu</a>
+              <br>
+              <em>Conference on Language Modeling (COLM)</em>, 2026
+              <br>
+              <a href="https://arxiv.org/pdf/2604.01622">paper</a> /
+              <a href="https://github.com/zhangshuibai/EC-DLM">code</a> 
+              <p></p>
+              <p></p>
+              <p> This project shows that EC routing improves training efficiency and model performance over token-choice routing, and introduces timestep-dependent expert scheduling that further boosts performance by allocating more computation to low-mask-ratio denoising steps. </p>
+            </td>
+          </tr>  
 
           
           
