@@ -108,6 +108,52 @@
                 <source src="images/ibrnet_after.mp4" type="video/mp4">
                 Your browser does not support the video tag.
                 </video></div>
+                <img src='images/hallu.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function ibrnet_start() {
+                  document.getElementById('ibrnet_image').style.opacity = "1";
+                }
+
+                function ibrnet_stop() {
+                  document.getElementById('ibrnet_image').style.opacity = "0";
+                }
+                ibrnet_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Understanding Why Language Models Hallucinate: Testing Reasoning Against Priors</papertitle>
+              <br>
+              <a href="https://neohughus.github.io/yangfan/">Yangfan Hu</a>*,
+              <a href="https://txxxxh.github.io/">Xuhan Tong</a>*,
+              <strong>Haoyue Bai † *</strong> ,
+              <a href="https://darcyddx.github.io/">Xi Ding</a>, 
+              Shashank Muralidhar Bharadwaj, 
+              Siyang Cai, 
+              <a href="https://nowak.ece.wisc.edu/">Robert Nowak</a>,
+              <a href="https://jwzhang.netlify.app/">Jiawei Zhang</a>
+              <br>
+              arXiv, 2026
+              <br>
+              <a href="https://arxiv.org/pdf/2607.00447">paper</a> /
+              <a href="https://neohughus.github.io/Understanding_Why_Language_Models_Hallucinate/">code</a> /
+              <a href="https://huggingface.co/datasets/NeoHugh/TrapQA">dataset</a> 
+              <p></p>
+              <p></p>
+              <p> This paper investigates why large language models (LLMs) hallucinate by arguing that many errors arise not from missing knowledge, but from inference misalignment, where models follow statistically dominant shortcut associations instead of the prompt's decisive constraints. </p>
+            </td>
+          </tr>  
+
+
+
+          
+          <tr onmouseout="ibrnet_stop()" onmouseover="ibrnet_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ibrnet_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/ibrnet_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
                 <img src='images/agent.png' width="160">
               </div>
               <script type="text/javascript">
@@ -136,6 +182,11 @@
               <a href="https://nowak.ece.wisc.edu/">Robert Nowak</a>
               <br>
               arXiv, 2026
+              <br>
+              <a href="https://arxiv.org/pdf/2509.21016">paper</a> /
+              <a href="https://github.com/sunblaze-ucb/rl-grok-recipe">code</a> /
+              <a href="https://rdi.berkeley.edu/blog/rl-grokking-recipe">media coverage</a> 
+              <p></p>
               <p></p>
               <p> LLM agents succeed on short tasks but degrade on long-horizon ones, with failures that are poorly understood. We introduce HORIZON, a diagnostic suite that systematically probes long-horizon tasks across domains and reveals consistent failure patterns in SOTA agents. </p>
             </td>
